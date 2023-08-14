@@ -1,0 +1,124 @@
+.icon {
+  width: 12px;
+  height: 12px;
+  &:before {
+    content: "";
+    display: block;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    background: #787878;
+    width: 100%;
+    height: 100%;
+  }
+  &-filter {
+    &:before {
+      mask-image: url("@/assets/images/filter.svg");
+    }
+  }
+  &-switch {
+    &:before {
+      mask-image: url("@/assets/images/switch.svg");
+    }
+  }
+  &-delete {
+    &:before {
+      mask-image: url("@/assets/images/delete.svg");
+    }
+  }
+  &-copy {
+    &:before {
+      mask-image: url("@/assets/images/copy.svg");
+    }
+  }
+  &-reset {
+    &:before {
+      mask-image: url("@/assets/images/reset.svg");
+    }
+  }
+  &-list {
+    &:before {
+      mask-image: url("@/assets/images/list.svg");
+    }
+  }
+  &-grid {
+    &:before {
+      mask-image: url("@/assets/images/grid.svg");
+    }
+  }
+  &-table {
+    &:before {
+      mask-image: url("@/assets/images/table.svg");
+    }
+  }
+  &-plus {
+    &:before {
+      mask-image: url("@/assets/images/plus.svg");
+    }
+  }
+  &-chevron-bottom {
+    &:before {
+      mask-image: url("@/assets/images/chevron-bottom.svg");
+    }
+  }
+  &-info {
+    &:before {
+      mask-image: url("@/assets/images/info.svg");
+    }
+  }
+  &-cart {
+    &:before {
+      mask-image: url("@/assets/images/cart.svg");
+    }
+  }
+  &-users {
+    &:before {
+      mask-image: url("@/assets/images/users.svg");
+    }
+  }
+  &-case {
+    &:before {
+      mask-image: url("@/assets/images/case.svg");
+    }
+  }
+  &-folder {
+    &:before {
+      mask-image: url("@/assets/images/folder.svg");
+    }
+  }
+  &-chart {
+    &:before {
+      mask-image: url("@/assets/images/chart.svg");
+    }
+  }
+  &-buildings {
+    &:before {
+      mask-image: url("@/assets/images/buildings.svg");
+    }
+  }
+  &-tree-diag {
+    &:before {
+      mask-image: url("@/assets/images/tree-diag.svg");
+    }
+  }
+  &-check {
+    &:before {
+      mask-image: url("@/assets/images/check.svg");
+    }
+  }
+  &-check-icon {
+    &:before {
+      mask-image: url("@/assets/images/check-icon.svg");
+    }
+  }
+  &-resize{
+    &:before {
+      mask-image: url("@/assets/images/resize.svg");
+    }
+  }
+}
+
+//&- {
+//  &:before {
+//    mask-image: url("../../public/images/.svg");
+//  }
+//}

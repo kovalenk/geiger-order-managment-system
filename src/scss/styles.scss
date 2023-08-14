@@ -1,0 +1,60 @@
+@import "core/_normalize";
+@import "core/_reset";
+@import "core/_fonts";
+@import "core/_media";
+@import "icons";
+
+* {
+  font-family: Inter, sans-serif;
+  box-sizing: border-box;
+}
+html, body, #app {
+  height: 100%;
+  max-height: 100vh;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+.icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+
+  background-color: var(--grey-content);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.inter-thin, .inter-extra-light, .inter-light, .inter-regular, .inter-medium, .inter-semi-bold, .inter-bold, .inter-black {
+  font-family: Inter, sans-serif;
+}
+.inter-thin {
+  font-weight: 100;
+}
+.inter-extra-light {
+  font-weight: 200;
+}
+.inter-light {
+  font-weight: 300;
+}
+.inter-regular {
+  font-weight: 400;
+}
+.inter-medium {
+  font-weight: 500;
+}
+.inter-semi-bold {
+  font-weight: 600;
+}
+.inter-bold {
+  font-weight: 700;
+}
+.inter-extra-bold {
+  font-weight: 800;
+}
+.inter-black {
+  font-weight: 900;
+}
+
